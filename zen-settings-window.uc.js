@@ -248,7 +248,7 @@
       button.classList.add("sidebar-button-settings-window");
       button.setAttribute("tooltiptext", "Open Settings");
       button.setAttribute("aria-label", "Open Settings");
-      button.style.setProperty("list-style-image", 'url("chrome://browser/skin/settings.svg")', "important");
+      button.style.setProperty("list-style-image", 'url("chrome://browser/skin/zen-icons/settings.svg")', "important");
       button.addEventListener("command", this.handleZenLibrarySettingsButton, true);
       button.addEventListener("click", this.handleZenLibrarySettingsButton, true);
     }
