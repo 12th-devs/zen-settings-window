@@ -1,0 +1,47 @@
+@-moz-document url-prefix("about:preferences") {
+  :root[zen-settings-window-content] {
+    --zen-colors-tertiary: transparent !important;
+    --zen-settings-secondary-background: transparent !important;
+    --in-content-page-background: transparent !important;
+    --background-color-box: transparent !important;
+    --in-content-box-background: color-mix(in srgb, Canvas 72%, transparent) !important;
+    --in-content-box-background-odd: color-mix(in srgb, Canvas 64%, transparent) !important;
+    --in-content-box-border-color: color-mix(in srgb, currentColor 16%, transparent) !important;
+    --in-content-border-color: color-mix(in srgb, currentColor 16%, transparent) !important;
+    --zen-in-content-dialog-background: var(--in-content-box-background) !important;
+  }
+
+  :root[zen-settings-window-content],
+  :root[zen-settings-window-content] body,
+  :root[zen-settings-window-content] #preferences-root,
+  :root[zen-settings-window-content] #preferences-body,
+  :root[zen-settings-window-content] #preferences-stack,
+  :root[zen-settings-window-content] #prefsContainer,
+  :root[zen-settings-window-content] #mainPrefPane,
+  :root[zen-settings-window-content] #paneDeckContainer,
+  :root[zen-settings-window-content] .pane-container,
+  :root[zen-settings-window-content] .main-content,
+  :root[zen-settings-window-content] .main-content-container,
+  :root[zen-settings-window-content] .sticky-container,
+  :root[zen-settings-window-content] .sticky-inner-container,
+  :root[zen-settings-window-content] #search-container,
+  :root[zen-settings-window-content] deck,
+  :root[zen-settings-window-content] scrollbox {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+
+  :root[zen-settings-window-content] .sticky-container,
+  :root[zen-settings-window-content] .sticky-inner-container {
+    box-shadow: none !important;
+  }
+
+  :root[zen-settings-window-content] #categories,
+  :root[zen-settings-window-content] #categories > *,
+  :root[zen-settings-window-content] .category {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+}

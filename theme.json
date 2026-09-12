@@ -1,0 +1,27 @@
+{
+  "id": "zen-settings-window",
+  "name": "Zen Settings Window",
+  "description": "Replaces Zen's Settings action with a standalone OS window for native settings.",
+  "author": "Codex",
+  "version": "0.1.0",
+  "createdAt": "2026-09-11",
+  "updatedAt": "2026-09-11",
+  "homepage": "https://github.com/zen-browser/desktop/pull/6615",
+  "readme": "README.md",
+  "preferences": "preferences.json",
+  "fork": ["zen"],
+  "tags": ["Zen Browser", "Settings", "Preferences", "Sine"],
+  "style": {
+    "chrome": "",
+    "content": ""
+  },
+  "scripts": {
+    "zen-settings-window.uc.js": {
+      "name": "Zen Settings Window",
+      "description": "Patches Zen's Settings action so it opens a standalone settings window.",
+      "include": ["chrome://browser/content/browser.xhtml"],
+      "loadOrder": 10
+    }
+  },
+  "no-updates": true
+}

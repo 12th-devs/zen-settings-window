@@ -1,0 +1,21 @@
+[
+  {
+    "type": "separator",
+    "label": "Debug",
+    "id": "debug-separator"
+  },
+  {
+    "property": "extensions.zen-settings-window.debug.os",
+    "label": "Debug OS theme override",
+    "type": "dropdown",
+    "placeholder": false,
+    "default": "auto",
+    "options": [
+      { "value": "auto", "label": "Auto (Current OS)" },
+      { "value": "windows", "label": "Windows" },
+      { "value": "macos", "label": "macOS" },
+      { "value": "linux", "label": "Linux" }
+    ],
+    "description": "For testing only. Adds zen-settings-window-debug-os to the standalone settings window content."
+  }
+]
